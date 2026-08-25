@@ -207,3 +207,12 @@ figures published here.
   `financial_analysis` was dropped entirely — the corpus's `*-analysis`
   documents are legal analyses in memo form, not financial models, so the kind
   had one real example in 1,020.
+
+## Licence
+
+MIT — see [LICENSE](LICENSE). Use it, fork it, take the taxonomy, take the
+labels. If it saves someone else the four hours and the $0.44, that is the
+whole point.
+
+The underlying corpus is Harvey LAB's, also MIT — see [NOTICE](NOTICE), which
+needs to travel with copies of anything in `data/` or `out/`.
