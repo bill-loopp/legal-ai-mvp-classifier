@@ -1,0 +1,176 @@
+[
+  {
+    "key": "engagement_letter",
+    "label": "Engagement Letter",
+    "practiceArea": null,
+    "hint": "The firm's own terms of retention with a client: scope of the representation, fee and billing rates, retainer, conflicts waiver, staffing, and termination — plus matter closing and disengagement letters. A letter is NOT this type merely because it is a letter to a client: demand letters, fee letters under a credit facility, commitment letters, opinion letters, payoff letters and transmittal letters each belong to their own type below."
+  },
+  {
+    "key": "conflict_check_memorandum",
+    "label": "Conflicts Check Memorandum",
+    "practiceArea": null,
+    "hint": "Internal memo documenting a conflicts clearance search for a proposed representation: parties searched, hits, adversity analysis, clearance or waiver recommendation."
+  },
+  {
+    "key": "matter_administration_memo",
+    "label": "Matter Opening or Closing Memorandum",
+    "practiceArea": null,
+    "hint": "Internal matter lifecycle administration: new matter opening, intake or engagement-scope memo, staffing memo, matter closing memo, file retention and disposition instructions, billing arrangement setup."
+  },
+  {
+    "key": "legal_research_memorandum",
+    "label": "Legal Research and Advice Memorandum",
+    "practiceArea": null,
+    "hint": "Attorney work product analysing a legal question and advising a course of action, with authorities and reasoning — including tax structuring, reorganisation, regulatory and cross-border advice memoranda. The generic advice memo, chosen when no more specific memo type below fits."
+  },
+  {
+    "key": "legal_opinion_letter",
+    "label": "Legal Opinion Letter",
+    "practiceArea": null,
+    "hint": "Formal opinion of counsel addressed to a third party or lender: due incorporation, due authorisation, enforceability, no-conflicts, with stated assumptions and qualifications."
+  },
+  {
+    "key": "due_diligence_document",
+    "label": "Due Diligence Request List or Report",
+    "practiceArea": "mergers_acquisitions",
+    "hint": "Diligence request lists/checklists, diligence response trackers, and diligence findings reports or issue memos covering corporate, IP, employment, tax or environmental review."
+  },
+  {
+    "key": "purchase_agreement",
+    "label": "Purchase or Merger Agreement",
+    "practiceArea": "mergers_acquisitions",
+    "hint": "The definitive acquisition contract and the exhibits filed with it: asset purchase, stock purchase, merger or share purchase agreement with its representations, covenants, conditions and indemnities, together with seller or buyer disclosure schedules, exception schedules and annexes keyed to those representations."
+  },
+  {
+    "key": "term_sheet_or_loi",
+    "label": "Term Sheet or Letter of Intent",
+    "practiceArea": null,
+    "hint": "Preliminary, mostly non-binding deal outline at any revision stage: term sheet, revised term sheet, letter of intent, memorandum of understanding, indication of interest, commitment letter, equity commitment letter, exclusivity letter."
+  },
+  {
+    "key": "closing_certificate",
+    "label": "Closing Certificate",
+    "practiceArea": null,
+    "hint": "Short certificate delivered at or before closing, usually signed by an officer or issued by a registry: secretary's certificate, officer's or bring-down certificate, solvency certificate, incumbency certificate, FIRPTA certificate, perfection certificate, certificate of good standing."
+  },
+  {
+    "key": "closing_document_index",
+    "label": "Closing Checklist or Binder Index",
+    "practiceArea": null,
+    "hint": "Transaction management document listing deliverables, responsible parties and status: closing checklist, signature page log, closing binder index, deal calendar."
+  },
+  {
+    "key": "credit_or_financing_agreement",
+    "label": "Credit, Security or Financing Agreement",
+    "practiceArea": "banking_finance",
+    "hint": "Debt and collateral documentation: credit or loan agreement, note purchase agreement, indenture, promissory note, guarantee, intercreditor or subordination agreement, and the documents granting or perfecting a security interest — security agreement, pledge, mortgage or deed of trust, UCC financing statement, collateral assignment, escrow agreement."
+  },
+  {
+    "key": "securities_offering_document",
+    "label": "Securities Offering Document",
+    "practiceArea": "capital_markets",
+    "hint": "Capital markets offering materials: preliminary/final offering memorandum, prospectus, underwriting or placement agency agreement, registration rights agreement, comfort letter request."
+  },
+  {
+    "key": "regulatory_filing",
+    "label": "Regulatory Filing or Government Submission",
+    "practiceArea": "compliance_regulatory",
+    "hint": "Document filed with or submitted to a government body, regulator or monitor: HSR premerger notification form, SEC or exchange filing, licence or permit application, agency correspondence and responses, periodic compliance or progress report to a regulator, CFIUS or export-control submission."
+  },
+  {
+    "key": "organizational_document",
+    "label": "Charter, Bylaws or Organizational Document",
+    "practiceArea": "corporate_governance",
+    "hint": "Entity constitutional and shareholder-level documents: certificate or articles of incorporation and amendments, bylaws, LLC or limited partnership agreement, operating agreement, stockholders agreement, investors' rights agreement, voting agreement, director or officer indemnification agreement."
+  },
+  {
+    "key": "board_or_stockholder_consent",
+    "label": "Board or Stockholder Resolution and Minutes",
+    "practiceArea": "corporate_governance",
+    "hint": "Governance action records: board or stockholder resolutions, written consents in lieu of a meeting, meeting minutes, notices of meeting, board deck memoranda."
+  },
+  {
+    "key": "commercial_agreement",
+    "label": "Commercial or Services Agreement",
+    "practiceArea": "technology_transactions",
+    "hint": "Ordinary-course commercial contracts and their transfer documents: services, supply, distribution, reseller, transition services, vendor, consulting or master services agreement, statements of work, and assignment and assumption agreements."
+  },
+  {
+    "key": "ip_or_technology_agreement",
+    "label": "IP or Technology Agreement",
+    "practiceArea": "intellectual_property",
+    "hint": "Intellectual property contracts: patent/trademark/copyright assignment, IP licence, software licence, SaaS terms, joint development, technology transfer, open-source or data-use agreement."
+  },
+  {
+    "key": "employment_agreement",
+    "label": "Employment and Compensation Agreement",
+    "practiceArea": "labor_employment",
+    "hint": "Individual employment documents: offer letter, employment agreement, executive severance or separation agreement, restrictive covenant, equity award, retention or incentive plan."
+  },
+  {
+    "key": "real_property_agreement",
+    "label": "Real Property or Lease Agreement",
+    "practiceArea": "real_estate",
+    "hint": "Real estate documents: commercial lease, sublease, purchase and sale of real property, deed, easement, estoppel certificate, title objection letter, subordination and non-disturbance agreement."
+  },
+  {
+    "key": "confidentiality_agreement",
+    "label": "Confidentiality or Non-Disclosure Agreement",
+    "practiceArea": null,
+    "hint": "Mutual or one-way NDA, confidentiality agreement, clean team agreement, common interest or joint defense agreement."
+  },
+  {
+    "key": "pleading",
+    "label": "Pleading",
+    "practiceArea": "litigation",
+    "hint": "Court filing that frames the claims or defences: complaint, verified complaint, petition, answer and affirmative defenses, counterclaim, cross-claim, notice of removal, demand for arbitration."
+  },
+  {
+    "key": "motion_or_brief",
+    "label": "Motion or Brief",
+    "practiceArea": "litigation",
+    "hint": "Advocacy filed with a court or tribunal seeking relief: motion to dismiss, summary judgment motion, memorandum of law in support or opposition, appellate brief, mediation or arbitration statement."
+  },
+  {
+    "key": "discovery_document",
+    "label": "Discovery, Deposition or Expert Material",
+    "practiceArea": "litigation",
+    "hint": "Evidence-gathering and testimony material: requests for production, interrogatories, requests for admission and their responses and objections, privilege log, ESI protocol, subpoena, deposition notice, deposition transcript or summary, sworn declaration or affidavit, self-proving affidavit, witness interview or witness preparation memo, cross-examination outline, expert report or disclosure."
+  },
+  {
+    "key": "court_order",
+    "label": "Court Order or Judgment",
+    "practiceArea": "litigation",
+    "hint": "Issued by the tribunal, not a party: order, scheduling order, protective order, judgment, stipulation and order, notice of dismissal, arbitral award."
+  },
+  {
+    "key": "litigation_hold_notice",
+    "label": "Litigation Hold Notice",
+    "practiceArea": "litigation",
+    "hint": "Preservation notice instructing custodians to suspend routine deletion of documents and data because litigation is reasonably anticipated; includes hold reminders and releases."
+  },
+  {
+    "key": "case_assessment_memo",
+    "label": "Case Assessment or Settlement Memorandum",
+    "practiceArea": "litigation",
+    "hint": "Internal litigation evaluation: preliminary case assessment, merits and exposure analysis, settlement authority memo, mediation strategy, insurance coverage analysis."
+  },
+  {
+    "key": "settlement_agreement",
+    "label": "Settlement Agreement and Release",
+    "practiceArea": "litigation",
+    "hint": "The executed resolution of a dispute: settlement agreement, mutual release, tolling agreement, consent decree, confession of judgment."
+  },
+  {
+    "key": "compliance_policy",
+    "label": "Compliance Policy or Procedure",
+    "practiceArea": "compliance_regulatory",
+    "hint": "Standing internal rules rather than advice on one matter: code of conduct, anti-corruption/AML/sanctions policy, privacy policy, data retention schedule, compliance training material, audit or monitoring protocol."
+  },
+  {
+    "key": "correspondence",
+    "label": "Correspondence",
+    "practiceArea": null,
+    "hint": "A letter or email exchanging information, scheduling, transmitting drafts, or negotiating between counsel, client and counterparties. Choose this for email messages and transmittal or status letters that are not themselves one of the more specific types above."
+  }
+]

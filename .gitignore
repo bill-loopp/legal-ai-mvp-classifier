@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+# Virtualenv and bytecode
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---------------------------------------------------------------------------
+# The fine-tuned model — 418MB, four times GitHub's 100MB per-file limit.
+#
+# Regenerable: `train.py --epochs 6 --class-weights` rebuilds it from
+# data/labeled-all.jsonl in about four hours on CPU. The labels are what
+# actually cost money; the weights are just a slow function of them.
+#
+# To distribute it, attach bundle/document-kind-classifier.tar.gz to a GitHub
+# Release (2GB asset limit, and release assets do not bloat clones) rather
+# than committing it or paying for LFS bandwidth on every clone.
+# ---------------------------------------------------------------------------
+model/
+bundle/
+*.tar.gz
+*.safetensors
+*.bin
+*.pt
+
+# ---------------------------------------------------------------------------
+# Superseded label files: 298MB between them, because each row carries a full
+# copy of document text that already lives in the legal-ai-mvp corpus.
+#
+# data/labeled-all.jsonl supersedes all three — same labels, no inlined text,
+# 1.8MB — and dataset.py reads document text from the corpus on demand. It is
+# committed deliberately: regenerating those labels means re-running the
+# DeepSeek pass, which is the one step that costs real money.
+# ---------------------------------------------------------------------------
+data/labeled.jsonl
+data/labeled.round1.jsonl
+data/labeled.v1.jsonl
+
+# ---------------------------------------------------------------------------
+# Run logs and scratch
+# ---------------------------------------------------------------------------
+out/*.log
+.DS_Store
+
+# ---------------------------------------------------------------------------
+# Never commit credentials. This project reads DEEPSEEK_API_KEY from the
+# legal-ai-mvp checkout's .env at runtime and never copies it here — this
+# entry exists so that stays true.
+# ---------------------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
